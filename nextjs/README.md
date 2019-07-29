@@ -15,7 +15,8 @@ styled-jsx:
 - Works in both functional and class components
 - getInitialProps can only be used in Pages, NOT children components.
 
-'''
+
+```
 getInitialProps receives a context object with the following properties:
     pathname - path section of URL
     query - query string section of URL parsed as an object
@@ -23,4 +24,4 @@ getInitialProps receives a context object with the following properties:
     req - HTTP request object (server only)
     res - HTTP response object (server only)
     err - Error object if any error is encountered during the rendering
-'''
+```
